@@ -1,0 +1,396 @@
+# Morphological Transducer for Purepecha
+
+# Part of speech categories
+# <n>      # Noun
+# <np>     # Proper-Noun
+# <prn>    # Pronoun
+# <v>      # Verb
+# <adj>    # Adjective
+# <obj>    # Object
+# <det>    # Determinant
+# <num>    # Number
+
+# <sent>   # Sentence-ending punctuation
+# <guio>   # Hyphen
+# <cm>     # Comma
+# <apos>   # Apostrophe
+# <quot>   # Quotation mark
+# <lquot>  # Left quotation mark
+# <rquot>  # Right quotation mark
+# <lpar>   # Left parenthesis
+# <rpar>   # Right parenthesis
+
+# Verbs
+# <nom>    # nominalising suffix
+# <agnt>   # nominalising suffix (agent)
+# <p1>     # 1st person
+# <p2>     # 2nd person
+# <p3>     # 3rd person
+# <past>   # past
+# <pres>   # present
+# <fut>    # future
+# <cni>    # conditional
+# <pri>    # present indicative
+# <perf>   # perfect (aspect)
+# <dur>    # duration (aspect)
+# <hab>    # habitual (aspect)
+# <incp>   # inceptive
+# <itg>    # interrogative
+
+
+# Number morphology
+# <pl>  # Plural
+# <sg>  # Singular
+
+# Other symbols
+# >      # Morpheme boundary
+
+###############################################################################
+###                       M O R P H O T A C T I C S                         ###
+###############################################################################
+
+PATTERNS
+NounRoot RegNounInfl
+ProNounRoot ProNounInfl
+PropNounRoot PropNounInfl
+ObjectRoot RegNounInfl Object
+LocativeRoot RegNounInfl Locative
+Adjective [<adj>:]
+Preposition [<pr>:]
+Determiner DeterminerInfl
+Number
+# Verb VerbInfn
+Verbs
+# V-Stem AspectTime ModeInterrogative
+Punctuation
+
+
+PATTERN Verbs
+V-Stem(1) [<v>:] V-Stem(2): AspectTime ModeInterrogative
+# V-Stem(1) [<v>:] V-Stem(3): Infinitive
+
+###############################################################################
+###                          L E X I C O N                                  ###
+###############################################################################
+
+LEXICON RegNounInfl
+
+<n><sg>:
+<n><pl>:>echa
+
+LEXICON ProNounInfl
+
+<prn><sg>:
+
+LEXICON PropNounInfl
+
+<np><sg>:
+<np><sg><obj>:>ni
+
+LEXICON Object
+
+<obj>:>ni
+
+LEXICON Locative
+
+<loc>:>rhu
+
+LEXICON DeterminerInfl
+
+<det>:
+<det><obj>:>ni
+
+LEXICON AspectTime
+
+<pres>:
+<pres><dur>:>xa
+<pres><hab>:>sïn
+<pres><perf>:>s
+<pres><incp>:>xam
+<past><dur>:>xap
+<past><hab>:>sïam{M}
+<past><perf>:>sp
+<past><incp>:>xamam{M}
+<cni>:>pirin
+<fut>:>a
+
+LEXICON ModeInterrogative
+
+<nf>:>ni
+<p1><sg>:>kani
+<p1><pl>:>ksï
+<p2><sg>:>ri
+<p2><pl>:>tsï
+<p3><sg>:>ti
+<p3><pl>:>ksï
+<itg>:>{K}i
+<p1>:>{K2}a
+<p2>:>{K2}a        #ambiguity
+
+
+LEXICON NounRoot
+
+wari:wari
+ganádu:ganádu
+kurúcha:kurúcha
+karhasï:karhasï                 # worm
+chpíri:chpíri                   # fire
+acháati:acháati                 # man
+
+LEXICON ProNounRoot
+xí:xí                           # I
+t’u:t’u                         # You
+
+LEXICON PropNounRoot
+
+María:María                     # Maria
+Xwánu:Xwánu                     # Juan
+Rósa:Rósa
+Jose:Jose
+Lúpi:Lúpi
+Babilonia:Babilonia
+
+LEXICON ObjectRoot
+
+ganádu:ganádu
+kurúcha:kurúcha
+yurhíri:yurhíri
+kuchíyu:kuchíyu                 # knife
+táa:táa                         # house
+sapí:sapí                       # child
+ayxádu:ayxádu                   # godson
+wíchu:wíchu                     # dog
+xatsíkwarhikwa:xatsíkwarhikwa   # treasure or wealth
+kabáyu:kabáyu                   # horse
+doktóri:doktóri                 # doctor
+xurámuti:xurámuti               # chief
+kúchi:kúchi                     # pig
+maríkwa:maríkwa                 # girl
+tsakápu:tsakápu                 # stone
+charháku:charháku               # baby
+káxa:káxa                       # box
+korráli:korráli                 # pen
+tsúntsu:tsúntsu                 # pot
+wátsï:wátsï                     # son/daughter
+María:María                     # Maria
+itsi:itsi                       # water
+maríkwa:maríkwa                 # girl
+tumpí:tumpí                     # boy
+tsíri:tsíri                     # corn
+tumína:tumína                   # money
+acháati:acháati                 # man
+wari:wari                       # woman
+kwártu:kwártu                   # room
+jurhiata:jurhiata               # sun
+pirékua:pirékua                 # song
+piré:piré                       # singer
+ráma:ráma                       # branch
+anátapu:anátapu                 # tree
+pwérta:pwérta                   # door
+táa:táa                         # house
+te:te                           # corn cob
+ajusï:ajusï                     # eye #1
+akuitsi:akuitsi                 # snake
+amanhejchakua:amanhejchakua     # fruit
+ambajtsïtakua:ambajtsïtakua     # comb
+auani:auani                     # rabbit
+axuni:axuni                     # deer
+chkári:chkári                   # lumber
+ch’anakua:ch’anakua             # game
+éjpu:éjpu                       # head
+eramarhandikua:eramarhandikua   # light
+iauakua:iauakua                 # ice
+ichúskuta:ichúskuta             # tortilla
+ireta:ireta                     # village
+isingua:isingua                 # armadillo
+itukua:itukua                   # salt
+itsukua:itsukua                 # milk
+iurhiri:iurhiri                 # blood
+jájki:jájki                     # hand
+janhaskua:janhaskua             # vision
+janikua:janikua                 # rain
+jantsiri:jantsiri               # foot
+jantspiri:jantspiri             # servant
+jatatsikua:jatatsikua           # bed
+jeiaki:jeiaki                   # thief
+jiuakuarhikua:jiuakuarhikua     # scream
+jiuatsï:jiuatsï                 # coyote
+jonguarhikua:jonguarhikua       # girdle
+juáta:juáta                     # woods
+kambanu:kambanu                 # bell
+katamba:katamba                 # tongue/language
+kauaru:kauaru                   # hill
+kekua:kekua                     # stairs/ladder
+komarhikua:komarhikua           # prayer
+kuaraki:kuaraki                 # squirell
+kuarasï:kuarasï                 # duck
+kuechenda:kuechenda             # saliva
+kurucha:kurucha                 # fish
+kustakua:kustakua               # instrument
+mintsita:mintsita               # heart
+misitu:misitu                   # cat
+
+LEXICON LocativeRoot
+
+kwártu:kwártu                   # room
+táa:táa                         # house
+anátapu:anátapu                 # tree
+
+LEXICON Adjective
+
+máteru:máteru                   # other
+nómeni:nómeni                   # not/negative
+pimbinhasï:pimbinhasï           # clean/holy
+aspiti:aspiti                   # tasty
+charhapiti:charhapiti           # red
+
+LEXICON Preposition
+jimbo:jimbo                     # for (is actually a prep/conj)
+para:para                       # for
+xinkóni:xinkóni                 # at
+
+LEXICON Determiner
+
+ka:ka                           # and
+ima:ima                         # he/she/they/that
+ísï:ísï                         # this/way
+jima:jima                       # where
+níjtu:níjtu                     # nor
+imá:imá                         # that
+máru:máru                       # some
+
+LEXICON Number
+ma:ma                           # one
+
+
+LEXICON V-Stem(2)
+
+piré:piré             <tv>    # sing
+kw’i:kw’i             <iv>    # sleep
+eshé:eshé             <tv>    # see
+jwá:jwá               <tv>    # bring
+t’iré:t’iré           <tv>    # eat
+xanó:xanó             <iv>    # arrive
+kachúku:kachúku       <tv>    # cut
+xáma:xáma             <tv>    # go around
+segíri:segíri         <iv>    # keep on
+xwá:xwá               <tv>    # bring
+atárant’a:atárant’a   <tv>    # sell
+kweráta:kweráta       <iv>    # be missing
+eró:eró               <iv>    # wait
+kwánita:kwánita       <iv>    # borrow/lend
+íntsku:íntsku         <tv>    # give
+enga:enga             <iv>    # belonging
+uarhij:uarhij         <iv>    # die
+pójpeni:pójpeni       <tv>    # quench
+k’amára:k’amára       <tv>    # finish
+wántiku:wántiku       <tv>    # kill
+xwá:xwá               <tv>    # bring !!add spellrelax
+pyá:pyá               <tv>    # buy
+k’waníra:k’waníra     <tv>    # throw
+ewá:ewá               <tv>    # take away
+intsikurhi:intsikurhi <tv>    # give away
+kwaká:kwaká           <tv>    # wet
+kurhú:kurhú           <tv>    # burn
+ikía:ikía             <iv>    # get angry
+míti:míti             <tv>    # know/realize
+wéka:wéka             <tv>    # love
+segíri:segíri         <iv>    # keep on
+uéjki:uéjki           <tv>    # want
+te:te                 <iv>    # be sweet
+ambajtsïku:ambajtsïku <tv>    # comb #1
+ambakerani:ambakerani <tv>    # clean
+ambakeranta:ambakeranta <tv>  # heal
+ambamandi:ambamandi   <iv>    # wake up
+andajpinu:andajpinu   <iv>    # born
+andangu:andangu       <tv>    # reach
+andanguta:andanguta   <tv>    # finish
+anhaxurhi:anhaxurhi   <iv>    # get up
+arhinta:arhinta       <tv>    # read
+arhuku:arhuku         <tv>    # divide
+atanta:atanta         <tv>    # paint
+ataranta:ataranta     <tv>    # sell
+axa:axa               <tv>    # send
+chata:chata           <tv>    # hammer
+chkuandera:chkuandera <iv>    # lie
+chuparhi:chuparhi     <tv>    # suck
+ch’ana:ch’ana         <tv>    # play
+eraa:eraa             <tv>    # watch
+incha:incha           <tv>    # enter
+iorheata:iorheata     <tv>    # hose
+ireka:ireka           <tv>    # live
+itsïma:itsïma         <tv>    # drink
+itsutani:itsutani     <tv>    # smoke
+jakajku:jakajku       <tv>    # believe
+jájkundi:jájkundi     <iv>    # be smelly
+janhaska:janhaska     <tv>    # undestand
+jantspi:jantspi       <tv>    # serve
+jarha:jarha           <tv>    # be
+jarhoata:jarhoata     <tv>    # help
+jata:jata             <tv>    # mount
+jatsikuarhi:jatsikuarhi  <tv> # have
+jatsiku:jatsiku       <tv>    # place
+jikua:jikua           <tv>    # bathe
+jirejta:jirejta       <tv>    # breathe
+jirinha:jirinha       <tv>    # find
+jiska:jiska           <tv>    # hind
+jiuakuarhi:jiuakuarhi <tv>    # scream
+jiua:jiua             <tv>    # vomit
+joku:joku             <tv>    # tie
+jorhenda:jorhenda     <tv>    # show
+jorhénguarhi:jorhénguarhi <tv>  # learn
+jupa:jupa             <tv>    # wash
+jurajku:jurajku       <tv>    # leave
+juramu:juramu         <tv>    # order
+kantspi:kantspi       <tv>    # owe
+kárani:kárani         <tv>    # fly
+kará:kará             <tv>    # write
+karuku:karuku         <tv>    # break
+katsarhi:katsarhi     <tv>    # bite
+ketsi:ketsi           <tv>    # lower
+kuájchaku:kuájchaku   <tv>    # free
+kuajpi:kuajpi         <tv>    # defend
+kuakara:kuakara       <tv>    # wet
+kuenarhi:kuenarhi     <tv>    # lick
+kurhira:kurhira       <tv>    # burn
+kustani:kustani       <tv>    # plat (instrument)
+meremerejku:meremerejku <tv>  # shine
+mita:mita             <tv>    # open
+
+
+
+LEXICON Punctuation
+
+.<sent>:.
+..<sent>:..
+...<sent>:...
+;<sent>:;
+\:<sent>:\:
+!<sent>:!
+-<guio>:-
+—<guio>:—
+,<cm>:,
+?<sent>:?
+'<apos>:'
+"<quot>:"
+«<lquot>:«
+»<rquot>:»
+”<rquot>:”
+“<lquot>:“
+(<lpar>:(
+\]<rpar>:\]
+\[<lpar>:\[
+)<rpar>:)
+\\<sent>:\\
+\/<sent>:\/
+
+
+# Resources:
+# https://github.com/apertium/lexd/blob/master/Usage.md
+# https://wiki.apertium.org/wiki/List_of_symbols
+# http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
+# http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
+# http://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
+# https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+# https://github.com/hfst/
+# http://wiki.apertium.org/wiki/Hfst

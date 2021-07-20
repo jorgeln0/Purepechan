@@ -1,0 +1,8 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+srcdir=${prefix}/share/apertium/apertium-tsz
+
+Name: apertium-tsz
+Description: Finite-state morphological transducer and constraint grammar for Purepecha
+Version: 0.1.0
+
