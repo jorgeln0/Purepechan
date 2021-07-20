@@ -1,0 +1,355 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../tsz.autogen.hfst
+    Morph: ../tsz.automorf.hfst
+Tests:
+  Aspect:
+    atárant’a<v><tv><pres><perf><p3><sg>:
+    - atárant’asti
+    kachúku<v><tv><pres><perf><p3><sg>:
+    - kachúkusti
+    kweráta<v><iv><pres><dur><p3><sg>:
+    - kwerátaxati
+    segíri<v><iv><past><perf><p3><sg>:
+    - segírispti
+    t’iré<v><tv><pres><dur><itg>:  # added tv
+    - t’iréxaki
+    t’iré<v><tv><fut><p1>:
+    - t’iréaka
+    t’iré<v><tv><fut><p2>:
+    - t’iréaka
+    t’iré<v><tv><fut><p3><sg>:
+    - t’iréati
+    t’iré<v><tv><past><perf><p1>:
+    - t’iréspka
+    t’iré<v><tv><past><perf><p2>:
+    - t’iréspka
+    xanó<v><iv><pres><perf><itg>:
+    - xanóski
+    xanó<v><iv><pres><perf><p1>:
+    - xanóska
+    xanó<v><iv><pres><perf><p2>:
+    - xanóska
+    xanó<v><iv><pres><perf><p3><sg>:
+    - xanósti
+    xwá<v><tv><pres><perf><p3><sg>:
+    - xwásti
+    xáma<v><tv><fut><p1>:
+    - xámaaka
+    xáma<v><tv><fut><p2>:
+    - xámaaka
+    intsikurhi<v><tv><fut><p1>:
+    - intsikurhiaka
+    intsikurhi<v><tv><fut><p2>:
+    - intsikurhiaka
+  Case:
+    ayxádu<n><sg><obj>:
+    - ayxáduni
+    charháku<n><sg><obj>:
+    - charhákuni
+    doktóri<n><sg><obj>:
+    - doktórini
+    ganádu<n><pl><obj>:
+    - ganáduni
+    kabáyu<n><sg><obj>:
+    - kabáyuni
+    korráli<n><sg><obj>:
+    - korrálini
+    kuchíyu<n><sg><obj>:
+    - kuchíyuni
+    kurú<n><pl><obj>:
+    - kurúchani
+    káxa<n><sg><obj>:
+    - káxani
+    kúchi<n><sg><obj>:
+    - kúchini
+    maríkwa<n><sg><obj>:
+    - maríkwani
+    sapí<n><sg><obj>:
+    - sapíni
+    tsakápu<n><sg><obj>:
+    - tsakápuni
+    tsúntsu<n><sg><obj>:
+    - tsúntsuni
+    táa<n><sg><obj>:
+    - táani
+    wíchu<n><sg><obj>:
+    - wíchuni
+    xatsíkwarhikwa<n><sg><obj>:
+    - xatsíkwarhikwani
+    xurámuti<n><sg><obj>:
+    - xurámutini
+    yurhíri<n><sg><obj>:
+    - yurhírini
+    wátsï<n><sg><obj>:
+    - wátsïni
+    María<np><sg><obj>:
+    - Maríani
+    itsi<n><sg><obj>:
+    - itsini
+    maríkwa<n><sg><obj>:
+    - maríkwani
+    tumpí<n><sg><obj>:
+    - tumpíni
+    tsíri<n><sg><obj>:
+    - tsírini
+    tumína<n><sg><obj>:
+    - tumínani
+    acháati<n><sg><obj>:
+    - acháatini
+    wari<n><sg><obj>:
+    - warini
+    kwártu<n><sg><obj>:
+    - kwártuni
+    jurhiata<n><sg><obj>:
+    - jurhiatani
+    pirekua<n><sg><obj>:
+    - pirekuani
+    ráma<n><sg><obj>:
+    - rámani
+    anátapu<n><sg><obj>:
+    - anátapuni
+    pwérta<n><sg><obj>:
+    - pwértani
+    táa<n><sg><obj>:
+    - táani
+    kwártu<n><sg><loc>: #start of loc tests
+    - kwárturhu
+    anátapu<n><sg><loc>:
+    - anátapurhu
+    táa<n><sg><obj>:
+    - táarhu
+  Conditional:
+    piré<v><tv><cni><itg>:
+    - pirépirini
+    piré<v><tv><cni><p1>:
+    - pirépiringa
+    piré<v><tv><cni><p2>:
+    - pirépiringa
+    piré<v><tv><cni><p3>:
+    - pirépirindi  #
+  Preposition:
+    jimbo<pr>:
+    - jimbo
+    para<pr>:
+    - para
+    xinkóni<pr>:
+    - xinkóni
+  Determinants or Determiners:
+    ka<det>:
+    - ka
+    ima<det>:
+    - ima
+    ísï<det>:
+    - ísï
+    jima<det>:
+    - jima
+    níjtu<det>:
+    - níjtu
+    imá<det>:
+    - imá
+    máru<det>:
+    - máru
+  Future:
+    piré<v><tv><fut><itg>:
+    - piréa
+    piré<v><tv><fut><p1>:
+    - piréaka
+    piré<v><tv><fut><p2>:
+    - piréaka
+    piré<v><tv><fut><p3>:
+    - piréati
+    piré<v><tv><fut><p1>:
+    - piréskani
+  Irrealis or Future:
+    ni<v><fut><p3><sg>:
+    - niati
+  Mood:
+    Atá<v><pres><perf><p1>:
+    - Atáska
+    Atá<v><pres><perf><p2>:
+    - Atáska
+    Atá<v><pres><perf><p3><sg>:
+    - Atásti
+    xanó<v><pres><perf><p1><sg>:
+    - xanóskani
+    xupá<v><pres><perf><p1><sg>:
+    - xupáskani
+  Nouns: {}
+  Others: {}
+  Parts of Speech: {}
+  Past Actual:
+    piré<v><tv><past><prog><itg>:
+    - piréxapi
+    piré<v><tv><past><prog><p1>:
+    - piréxapka
+    piré<v><tv><past><prog><p2>:
+    - piréxapka
+    piré<v><tv><past><prog><p3>:
+    - piréxapti
+  Past Habitual:
+    piré<v><tv><past><hab><itg>:
+    - pirésiambi
+    piré<v><tv><past><hab><p1>:
+    - pirésiamka
+    piré<v><tv><past><hab><p2>:
+    - pirésiamka
+    piré<v><tv><past><hab><p3>:
+    - pirésiamti
+  Past Inceptive:
+    piré<v><tv><past><incp><itg>:
+    - piréxamambi
+    piré<v><tv><past><incp><p1>:
+    - piréxamamga
+    piré<v><tv><past><incp><p2>:
+    - piréxamamga
+    piré<v><tv><past><incp><p3>:
+    - piréxamampti
+  Past Perfect:
+    piré<v><tv><past><perf><itg>:
+    - piréspi
+    piré<v><tv><past><perf><p1>:
+    - piréspka
+    piré<v><tv><past><perf><p2>:
+    - piréspka
+    piré<v><tv><past><perf><p3>:
+    - piréspti
+  Person and Number:
+    eró<v><iv><pres><dur><p1>:
+    - eróxaka
+    eró<v><iv><pres><dur><p1><pl>:
+    - eróxakaksï
+    eró<v><iv><pres><dur><p1><sg>:
+    - eróxakani
+    eró<v><iv><pres><dur><p2>:
+    - eróxaka
+    eró<v><iv><pres><dur><p2><pl>:
+    - eróxakatsï
+    eró<v><iv><pres><dur><p2><sg>:
+    - eróxakari
+    eró<v><iv><pres><dur><p3><pl>:
+    - eróxatiksï
+  Plural:
+    anátapu<n><pl>:
+    - anátapuicha
+    kurú<n><pl>:
+    - kurúcha
+    wari<n><pl>:
+    - wariecha
+  Present Actual:
+    piré<v><tv><pres><prog><itg>:
+    - piréxaki
+    piré<v><tv><pres><prog><p1>:
+    - piréxaka
+    piré<v><tv><pres><prog><p2>:
+    - piréxaka
+    piré<v><tv><pres><prog><p3>:
+    - piréxati
+  Present Habitual:
+    piré<v><tv><pres><hab><itg>:
+    - pirésini
+    piré<v><tv><pres><hab><p1>:
+    - pirésinka
+    piré<v><tv><pres><hab><p2>:
+    - pirésinka
+    piré<v><tv><pres><hab><p3>:
+    - pirésindi
+  Present Inceptive:
+    piré<v><tv><pres><incp><itg>:
+    - piréxamki
+    piré<v><tv><pres><incp><p1>:
+    - piréxamka
+    piré<v><tv><pres><incp><p2>:
+    - piréxamka
+    piré<v><tv><pres><incp><p3><sg>:  #added sg
+    - piréxamti
+  Present Perfect:
+    piré<v><tv><pres><perf><itg>:
+    - piréski
+    piré<v><tv><pres><perf><p1>:
+    - piréska
+    piré<v><tv><pres><perf><p2>:
+    - piréska
+    piré<v><tv><pres><perf><p3><sg>:  #added sg
+    - pirésti
+    kwánita<v><iv><pres><perf><p1>:  #new ambiguity
+    - kwánitaska
+    kwánita<v><iv><pres><perf><p2>:  #new ambiguity
+    - kwánitaska
+    íntsku<v><tv><pres><perf><p1>:  #new ambiguity
+    - íntskuska
+    íntsku<v><tv><pres><perf><p2>:  #new ambiguity
+    - íntskuska
+    enga<v><tv><pres><p3>:  #new ambiguity
+    - engaksï
+    uarhij<v><iv><pres><p1>:  #new ambiguity
+    - uarhijka
+    uarhij<v><iv><pres><p2>:  #new ambiguity
+    - uarhijka
+    pójpeni<v><tv><inf>:  #new ambiguity
+    - pójpeni
+    k’amára<v><tv><pres><perf><p3>:
+    - k’amárasti
+    wántiku<v><tv><pres><perf><p3>:
+    - wántikusti
+    xwá<v><tv><pres><perf><p3>:
+    - xwásti
+    pyá<v><tv><pres><perf><p3>:
+    - pyásti
+    k’waníra<v><tv><pres><perf><p3>:
+    - k’wanírasti
+    ewá<v><tv><pres><perf><p1>:
+    - ewáskani
+    kwaká<v><tv><perf><pres><p3>:
+    - kwakásti
+    kurhú<v><tv><perf><pres><p3>:
+    - kurhústi
+    ikía<v><tv><perf><pres><p3>:
+    - ikíasti
+
+  Reduplication: {}
+  Roots and Agents:
+    piré<n><sg>:
+    - piréri
+  Singular:
+    anátapu<n><sg>:
+    - anátapu
+    kurú<n><sg>:
+    - kurú
+    wari<n><sg>:
+    - wari
+    xí<prn><sg>:
+    - xí
+    María<np><sg>:
+    - María
+    Xwánu<np><sg>:
+    - Xwánu
+    Rósa<np><sg>:
+    - Rósa
+    T’u<prn><sg>:
+    - T’u
+    Acháati<n><sg>:
+    - Acháati
+  Verbs:
+    eshé<v><tv><pres><perf><p1>:
+    - eshéska
+    eshé<v><tv><pres><perf><p2>:
+    - eshéska
+    eshé<v><tv><pres><perf><p3><sg>:
+    - eshésti
+    jwá<v><tv><past><perf><p3><sg>:  #remove tv
+    - jwáspti
+    kw’i<v><iv><pres><dur><p1>:
+    - kw’ixaka
+    kw’i<v><iv><pres><dur><p2>:
+    - kw’ixaka
+    kw’i<v><iv><perf><pres><p3>:
+    - kw’isti
+  Adjective:
+    pimbinhasï<adj>:
+    - pimbinhasï
+    máteru<adj>:
+    - máteru
+    nómeni<adj>:
+    - nómeni
