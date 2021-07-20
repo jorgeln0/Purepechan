@@ -1,0 +1,1 @@
+lt-proc -w '/home/jlopezn1/ling073/ling073-tsz-spa/spa-tsz.automorf-untrimmed.bin' | cg-proc -w -t -t '/home/jlopezn1/ling073/ling073-tsz-spa/spa-tsz.rlx.bin'

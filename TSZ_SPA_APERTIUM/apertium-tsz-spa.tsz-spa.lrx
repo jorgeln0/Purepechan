@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+  <!--
+    This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
+    Add your own rules within <rule> here, using the resources below as a guide
+  -->
+
+  <!-- <rule>
+    <match lemma="wind"/>
+    <match lemma="power" tags="n.*">
+      <select lemma="energía" tags="n.*"/>
+    </match>
+  </rule>
+</rules>
+
+ -->
+
+ <!--If "tsíri" is accompanied by the following words, choose "flea" instead of "corn"-->
+
+ <rule>
+   <match lemma="tsíri" tags="n.*">
+     <select lemma="maiz"/>
+   </match>
+ </rule>
+
+ <rule weight="2">
+   <match lemma="wántiku"/>
+   <match lemma="tsíri">
+     <select lemma="pulga"/>
+   </match>
+ </rule>
+
+<!-- if holy/clean is used -->
+
+ <rule>
+   <match lemma="pimbinhasï">
+     <select lemma="limpio" tags="adj"/>
+   </match>
+ </rule>
+
+ <rule weight="2">
+   <match lemma="pimbinhasï" tags="adj">
+     <select lemma="santo" tags="adj"/>
+     </match>
+     <or>
+   <match lemma="jurhiata"/>
+   <match lemma="pirekua"/>
+     </or>
+ </rule>
+
+
+ <!-- if xí is used: I or myself -->
+
+ <rule>
+   <match lemma="xí">
+     <select lemma="yo"/>
+   </match>
+ </rule>
+
+ <rule weight="2">
+   <match lemma="xí">
+     <select lemma="conmigo"/>
+     </match>
+   <match lemma="xinkóni"/>
+ </rule>
+
+<!-- if xinkóni is used: at or with -->
+
+<rule>
+  <match lemma="xinkóni">
+    <select lemma="a" tags="pr"/>
+  </match>
+</rule>
+
+<rule weight="2">
+  <match lemma="xí"/>
+  <match lemma="xinkóni" tags="pr">
+    <select lemma="con" tags="pr"/>
+    </match>
+</rule>
+
+
+</rules>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    http://wiki.apertium.org/wiki/Lexical_selection
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora -->

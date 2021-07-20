@@ -1,0 +1,1 @@
+lt-proc -w '/home/jlopezn1/ling073/ling073-tsz-spa/tsz-spa.automorf-untrimmed.bin' | cg-proc -w '/home/jlopezn1/ling073/ling073-tsz-spa/tsz-spa.rlx.bin' | apertium-tagger -g $2 '/home/jlopezn1/ling073/ling073-tsz-spa/tsz-spa.prob'

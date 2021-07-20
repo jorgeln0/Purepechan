@@ -1,0 +1,1 @@
+lt-proc -w '/home/jlopezn1/ling073/ling073-tsz-spa/tsz-spa.automorf-untrimmed.bin' | cg-proc -w -1 -n '/home/jlopezn1/ling073/ling073-tsz-spa/tsz-spa.rlx.bin' | apertium-pretransfer | lt-proc -b '/home/jlopezn1/ling073/ling073-tsz-spa/tsz-spa.autobil.bin' | lrx-proc -m -t -t '/home/jlopezn1/ling073/ling073-tsz-spa/tsz-spa.autolex.bin'

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <!-- Define the alphabet below. -->
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ’''</alphabet>
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"               c="Noun"/>
+    <sdef n="np"              c="Proper noun"/>
+    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="cnjsub"          c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="pr"              c="Preposition"/>
+    <sdef n="adv"             c="Adverb"/>
+    <sdef n="ij"              c="Interjection"/>
+    <sdef n="adj"             c="Adjective"/>
+    <sdef n="prn"             c="Pronoun"/>
+
+    <sdef n="v"               c="verb"/>
+    <sdef n="tv"              c="transitive"/>
+    <sdef n="iv"              c="intransitive"/>
+    <sdef n="tn"              c="Tonic"/>
+
+    <sdef n="attr"            c="Attributive"/>
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+
+    <sdef n="det"             c="Determiner"/>
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="1st person"/>
+    <sdef n="p2"              c="2nd person"/>
+    <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="ut"              c="Utrum"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+    <sdef n="mf"              c="Masculine/Feminine"/>
+    <sdef n="un"              c="No gender"/>
+
+    <sdef n="sg"              c="Singular"/>
+    <sdef n="du"              c="Dual"/>
+    <sdef n="pl"              c="Plural"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Nominative"/>
+    <sdef n="acc"             c="Accusative"/>
+    <sdef n="gen"             c="Genitive"/>
+
+    <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+    <sdef n="emph"            c="Emphatic"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="num"             c="Numeral"/>
+    <sdef n="sent"            c="Sentence end"/>
+    <sdef n="cm"              c="Comma"/>
+    <sdef n="apos"            c="Apostrophe"/>
+    <sdef n="guio"            c="Dash"/>
+    <sdef n="lpar"            c="Left parenthesis"/>
+    <sdef n="rpar"            c="Right parenthesis"/>
+    <sdef n="lquot"           c="Left quote"/>
+    <sdef n="rquot"           c="Right quote"/>
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+  </sdefs>
+
+   <section id="main" type="standard">
+      <!-- Define entries within <e> here. -->
+      <e><p><l>wátsï<s n="n"/></l>
+            <r>hijo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>itsi<s n="n"/></l>
+            <r>agua<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>maríkwa<s n="n"/></l>
+            <r>niña<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tumpí<s n="n"/></l>
+            <r>niño<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tsíri<s n="n"/></l>
+            <r>maiz<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tsíri<s n="n"/></l>
+            <r>pulga<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tumína<s n="n"/></l>
+            <r>dinero<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>acháati<s n="n"/></l>
+            <r>hombre<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>wari<s n="n"/></l>
+            <r>mujer<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tsúntsu<s n="n"/></l>
+            <r>olla<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kwártu<s n="n"/></l>
+            <r>cuarto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jurhiata<s n="n"/></l>
+            <r>sol<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pirekua<s n="n"/></l>
+            <r>canción<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kwártu<s n="n"/></l>
+            <r>cuarto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ráma<s n="n"/></l>
+            <r>rama<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>anátapu<s n="n"/></l>
+            <r>árbol<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pwérta<s n="n"/></l>
+            <r>puerta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>táa<s n="n"/></l>
+            <r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ajusï<s n="n"/></l> <!-- number 1 -->
+            <r>ojo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>akuitsi<s n="n"/></l>
+            <r>culebra<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>amanhejchakua<s n="n"/></l>
+            <r>fruta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ambajtsïtakua<s n="n"/></l>
+            <r>peine<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>auani<s n="n"/></l>
+            <r>conejo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>axuni<s n="n"/></l>
+            <r>venado<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>chkári<s n="n"/></l>
+            <r>leña<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ch’anakua<s n="n"/></l>
+            <r>juego<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>éjpu<s n="n"/></l>
+            <r>cabeza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>eramarhandikua<s n="n"/></l>
+            <r>luz<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>iauakua<s n="n"/></l>
+            <r>hielo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ichúskuta<s n="n"/></l>
+            <r>tortilla<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ireta<s n="n"/></l>
+            <r>pueblo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>isingua<s n="n"/></l>
+            <r>armadillo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>itukua<s n="n"/></l>
+            <r>sal<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>itsukua<s n="n"/></l>
+            <r>leche<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>iurhiri<s n="n"/></l>
+            <r>sangre<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jájki<s n="n"/></l>
+            <r>mano<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>janhaskua<s n="n"/></l>
+            <r>visión<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>janikua<s n="n"/></l>
+            <r>lluvia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jantsiri<s n="n"/></l>
+            <r>pie<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jantspiri<s n="n"/></l>
+            <r>sirviente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jatatsikua<s n="n"/></l>
+            <r>cama<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jeiaki<s n="n"/></l>
+            <r>ratón<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jiuakuarhikua<s n="n"/></l>
+            <r>grito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jiuatsï<s n="n"/></l>
+            <r>coyote<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jonguarhikua<s n="n"/></l>
+            <r>faja<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>juáta<s n="n"/></l>
+            <r>monte<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kambanu<s n="n"/></l>
+            <r>campana<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>katamba<s n="n"/></l>
+            <r>lengua<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kauaru<s n="n"/></l>
+            <r>barranca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kekua<s n="n"/></l>
+            <r>escalera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>komarhikua<s n="n"/></l>
+            <r>oración<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kuaraki<s n="n"/></l>
+            <r>ardilla<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kuarasï<s n="n"/></l>
+            <r>pato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kuechenda<s n="n"/></l>
+            <r>saliva<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kurucha<s n="n"/></l>
+            <r>pescado<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kustakua<s n="n"/></l>
+            <r>instrumento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mintsita<s n="n"/></l>
+            <r>corazón<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>misitu<s n="n"/></l>
+            <r>gato<s n="n"/><s n="m"/></r></p></e>
+
+      <!-- pronouns. -->
+      <e><p><l>xí<s n="prn"/></l>
+            <r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>xí<s n="prn"/></l>
+            <r>conmigo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>t’u<s n="prn"/></l>
+            <r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+
+
+      <!-- names. -->
+      <e><p><l>Xwánu<s n="np"/></l>
+            <r>Juan<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Rósa<s n="np"/></l>
+            <r>Rósa<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Lúpi<s n="np"/></l>
+            <r>Lúpe<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>María<s n="np"/></l>
+            <r>Maria<s n="np"/><s n="ant"/></r></p></e>
+
+      <!-- adjectives. -->
+      <e><p><l>pimbinhasï<s n="adj"/></l>
+            <r>limpio<s n="adj"/></r></p></e>
+      <e><p><l>pimbinhasï<s n="adj"/></l>
+            <r>santo<s n="adj"/></r></p></e>
+      <e><p><l>aspiti<s n="adj"/></l> <!-- number 1 -->
+            <r>sabroso<s n="adj"/></r></p></e>
+      <e><p><l>charhapiti<s n="adj"/></l> <!-- number 1 -->
+            <r>rojo<s n="adj"/></r></p></e>
+
+      <!-- Preposition -->
+      <e><p><l>para<s n="pr"/></l>
+            <r>para<s n="pr"/></r></p></e>
+      <e><p><l>xinkóni<s n="pr"/></l>
+            <r>a<s n="pr"/></r></p></e>
+      <e><p><l>xinkóni<s n="pr"/></l>
+            <r>con<s n="pr"/></r></p></e>
+
+      <!-- determinants -->
+      <e><p><l>imá<s n="det"/></l>
+            <r>esa<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
+      <e><p><l>máru<s n="det"/></l>
+            <r>algún<s n="det"/><s n="ind"/><s n="m"/></r></p></e>
+
+      <!-- verbs. -->
+      <e><p><l>kwánita<s n="v"/><s n="iv"/></l>
+            <r>prestar<s n="vblex"/></r></p></e>
+      <e><p><l>íntsku<s n="v"/><s n="tv"/></l>
+            <r>dar<s n="vblex"/></r></p></e>
+      <e><p><l>k’amára<s n="v"/><s n="tv"/></l>
+            <r>acabar<s n="vblex"/></r></p></e>
+      <e><p><l>xwá<s n="v"/><s n="tv"/></l>
+            <r>traer<s n="vblex"/></r></p></e>
+      <e><p><l>pyá<s n="v"/><s n="tv"/></l>
+            <r>comprar<s n="vblex"/></r></p></e>
+      <e><p><l>k’waníra<s n="v"/><s n="tv"/></l>
+            <r>tirar<s n="vblex"/></r></p></e>
+      <e><p><l>ewá<s n="v"/><s n="tv"/></l>
+            <r>robar<s n="vblex"/></r></p></e>
+      <e><p><l>intsikurhi<s n="v"/><s n="tv"/></l>
+            <r>dar<s n="vblex"/></r></p></e>
+      <e><p><l>piré<s n="v"/><s n="tv"/></l>
+            <r>cantar<s n="vblex"/></r></p></e>
+      <e><p><l>wántiku<s n="v"/><s n="tv"/></l>
+            <r>matar<s n="vblex"/></r></p></e>
+      <e><p><l>eshé<s n="v"/><s n="tv"/></l>
+            <r>ver<s n="vblex"/></r></p></e>
+      <e><p><l>kw’i<s n="v"/><s n="iv"/></l>
+            <r>dormir<s n="vblex"/></r></p></e>
+      <e><p><l>kwaká<s n="v"/><s n="tv"/></l>
+            <r>mojar<s n="vblex"/></r></p></e>
+      <e><p><l>kurhú<s n="v"/><s n="tv"/></l>
+            <r>quemar<s n="vblex"/></r></p></e>
+      <e><p><l>ikía<s n="v"/><s n="iv"/></l>
+            <r>enojar<s n="vblex"/></r></p></e>
+      <e><p><l>ambajtsïku<s n="v"/><s n="tv"/></l> <!-- number 1 -->
+            <r>peinar<s n="vblex"/></r></p></e>
+      <e><p><l>ambakera<s n="v"/><s n="tv"/></l>
+            <r>limpiar<s n="vblex"/></r></p></e>
+      <e><p><l>ambakeranta<s n="v"/><s n="tv"/></l>
+            <r>sanar<s n="vblex"/></r></p></e>
+      <e><p><l>ambamandi<s n="v"/><s n="iv"/></l>
+            <r>amanecer<s n="vblex"/></r></p></e>
+      <e><p><l>andajpinu<s n="v"/><s n="iv"/></l>
+            <r>nacer<s n="vblex"/></r></p></e>
+      <e><p><l>andangu<s n="v"/><s n="tv"/></l>
+            <r>alcanzar<s n="vblex"/></r></p></e>
+      <e><p><l>andanguta<s n="v"/><s n="tv"/></l>
+            <r>completar<s n="vblex"/></r></p></e>
+      <e><p><l>anhaxurhi<s n="v"/><s n="tv"/></l>
+            <r>pararse<s n="vblex"/></r></p></e>
+      <e><p><l>arhinta<s n="v"/><s n="tv"/></l>
+            <r>leer<s n="vblex"/></r></p></e>
+      <e><p><l>arhuku<s n="v"/><s n="tv"/></l>
+            <r>dividir<s n="vblex"/></r></p></e>
+      <e><p><l>atanta<s n="v"/><s n="tv"/></l>
+            <r>pintar<s n="vblex"/></r></p></e>
+      <e><p><l>ataranta<s n="v"/><s n="tv"/></l>
+            <r>vender<s n="vblex"/></r></p></e>
+      <e><p><l>axa<s n="v"/><s n="tv"/></l>
+            <r>enviar<s n="vblex"/></r></p></e>
+      <e><p><l>chata<s n="v"/><s n="tv"/></l>
+            <r>clavar<s n="vblex"/></r></p></e>
+      <e><p><l>chkuandera<s n="v"/><s n="iv"/></l>
+            <r>mentir<s n="vblex"/></r></p></e>
+      <e><p><l>chuparhi<s n="v"/><s n="tv"/></l>
+            <r>chupar<s n="vblex"/></r></p></e>
+      <e><p><l>ch’ana<s n="v"/><s n="tv"/></l>
+            <r>jugar<s n="vblex"/></r></p></e>
+      <e><p><l>eraa<s n="v"/><s n="tv"/></l>
+            <r>mirar<s n="vblex"/></r></p></e>
+      <e><p><l>incha<s n="v"/><s n="tv"/></l>
+            <r>entrar<s n="vblex"/></r></p></e>
+      <e><p><l>iorheata<s n="v"/><s n="tv"/></l>
+            <r>regar<s n="vblex"/></r></p></e>
+      <e><p><l>ireka<s n="v"/><s n="tv"/></l>
+            <r>vivir<s n="vblex"/></r></p></e>
+      <e><p><l>itsïma<s n="v"/><s n="tv"/></l>
+            <r>beber<s n="vblex"/></r></p></e>
+      <e><p><l>itsuta<s n="v"/><s n="tv"/></l>
+            <r>fumar<s n="vblex"/></r></p></e>
+      <e><p><l>jakajku<s n="v"/><s n="tv"/></l>
+            <r>creer<s n="vblex"/></r></p></e>
+      <e><p><l>jájkundi<s n="v"/><s n="iv"/></l>
+            <r>apestar<s n="vblex"/></r></p></e>
+      <e><p><l>janhaska<s n="v"/><s n="tv"/></l>
+            <r>entender<s n="vblex"/></r></p></e>
+      <e><p><l>jantspi<s n="v"/><s n="tv"/></l>
+            <r>servir<s n="vblex"/></r></p></e>
+      <e><p><l>jarha<s n="v"/><s n="tv"/></l>
+            <r>estar<s n="vblex"/></r></p></e>
+      <e><p><l>jarhoata<s n="v"/><s n="tv"/></l>
+            <r>ayudar<s n="vblex"/></r></p></e>
+      <e><p><l>jata<s n="v"/><s n="tv"/></l>
+            <r>montar<s n="vblex"/></r></p></e>
+      <e><p><l>jatsikuarhi<s n="v"/><s n="tv"/></l>
+            <r>tener<s n="vblex"/></r></p></e>
+      <e><p><l>jatsiku<s n="v"/><s n="tv"/></l>
+            <r>poner<s n="vblex"/></r></p></e>
+      <e><p><l>jikua<s n="v"/><s n="tv"/></l>
+            <r>bañarse<s n="vblex"/></r></p></e>
+      <e><p><l>jirejta<s n="v"/><s n="tv"/></l>
+            <r>respirar<s n="vblex"/></r></p></e>
+      <e><p><l>jirinha<s n="v"/><s n="tv"/></l>
+            <r>buscar<s n="vblex"/></r></p></e>
+      <e><p><l>jiska<s n="v"/><s n="tv"/></l>
+            <r>esconder<s n="vblex"/></r></p></e>
+      <e><p><l>jiuakuarhi<s n="v"/><s n="tv"/></l>
+            <r>gritar<s n="vblex"/></r></p></e>
+      <e><p><l>jiua<s n="v"/><s n="tv"/></l>
+            <r>vomitar<s n="vblex"/></r></p></e>
+      <e><p><l>joku<s n="v"/><s n="tv"/></l>
+            <r>amarrar<s n="vblex"/></r></p></e>
+      <e><p><l>jorhenda<s n="v"/><s n="tv"/></l>
+            <r>enseñar<s n="vblex"/></r></p></e>
+      <e><p><l>jorhénguarhi<s n="v"/><s n="tv"/></l>
+            <r>aprender<s n="vblex"/></r></p></e>
+      <e><p><l>jupa<s n="v"/><s n="tv"/></l>
+            <r>lavar<s n="vblex"/></r></p></e>
+      <e><p><l>jurajku<s n="v"/><s n="tv"/></l>
+            <r>dejar<s n="vblex"/></r></p></e>
+      <e><p><l>juramu<s n="v"/><s n="tv"/></l>
+            <r>ordenar<s n="vblex"/></r></p></e>
+      <e><p><l>kantspi<s n="v"/><s n="tv"/></l>
+            <r>deber<s n="vblex"/></r></p></e>
+      <e><p><l>kára<s n="v"/><s n="tv"/></l>
+            <r>volar<s n="vblex"/></r></p></e>
+      <e><p><l>kará<s n="v"/><s n="tv"/></l>
+            <r>escribir<s n="vblex"/></r></p></e>
+      <e><p><l>karuku<s n="v"/><s n="tv"/></l>
+            <r>romper<s n="vblex"/></r></p></e>
+      <e><p><l>katsarhi<s n="v"/><s n="tv"/></l>
+            <r>morder<s n="vblex"/></r></p></e>
+      <e><p><l>ketsi<s n="v"/><s n="tv"/></l>
+            <r>bajar<s n="vblex"/></r></p></e>
+      <e><p><l>kuájchaku<s n="v"/><s n="tv"/></l>
+            <r>librar<s n="vblex"/></r></p></e>
+      <e><p><l>kuajpi<s n="v"/><s n="tv"/></l>
+            <r>defender<s n="vblex"/></r></p></e>
+      <e><p><l>kuakara<s n="v"/><s n="tv"/></l>
+            <r>mojar<s n="vblex"/></r></p></e>
+      <e><p><l>kuenarhi<s n="v"/><s n="tv"/></l>
+            <r>lamer<s n="vblex"/></r></p></e>
+      <e><p><l>kurhira<s n="v"/><s n="tv"/></l>
+            <r>quemar<s n="vblex"/></r></p></e>
+      <e><p><l>kustani<s n="v"/><s n="tv"/></l>
+            <r>tocar<s n="vblex"/></r></p></e>
+      <e><p><l>meremerejku<s n="v"/><s n="tv"/></l>
+            <r>brillar<s n="vblex"/></r></p></e>
+      <e><p><l>mita<s n="v"/><s n="tv"/></l>
+            <r>abrir<s n="vblex"/></r></p></e>
+
+
+      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+   </section>
+</dictionary>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/Bilingual_dictionary
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+    https://wiki.apertium.org/wiki/List_of_symbols
+-->
